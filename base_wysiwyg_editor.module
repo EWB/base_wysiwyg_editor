@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Base Wysiwyg Editor feature.
+ */
+
+include_once 'base_wysiwyg_editor.features.inc';

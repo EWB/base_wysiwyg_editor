@@ -1,0 +1,17 @@
+name = Base Wysiwyg Editor
+description = Wysiwyg feature
+core = 7.x
+package = Features
+version = 7.x-1.0-beta2
+project = base_wysiwyg_editor
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = linkit
+dependencies[] = pathologic
+dependencies[] = wysiwyg
+features[ctools][] = linkit:linkit_profiles:1
+features[features_api][] = api:1
+features[filter][] = richtext_editor
+features[linkit_profiles][] = basic_profile
+features[wysiwyg][] = richtext_editor
