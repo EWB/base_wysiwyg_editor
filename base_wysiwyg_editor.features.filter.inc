@@ -27,6 +27,11 @@ function base_wysiwyg_editor_filter_default_formats() {
           'filter_html_nofollow' => 0,
         ),
       ),
+      'ckeditor_link_filter' => array(
+        'weight' => '0',
+        'status' => '1',
+        'settings' => array(),
+      ),
       'filter_url' => array(
         'weight' => '0',
         'status' => '1',

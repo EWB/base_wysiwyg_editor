@@ -32,8 +32,8 @@ function base_wysiwyg_editor_wysiwyg_default_profiles() {
           'SpellChecker' => 1,
           'Scayt' => 1,
         ),
-        'linkit' => array(
-          'linkit' => 1,
+        'drupal_path' => array(
+          'Link' => 1,
         ),
         'drupal' => array(
           'break' => 1,
