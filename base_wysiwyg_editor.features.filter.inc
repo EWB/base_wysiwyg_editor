@@ -39,6 +39,11 @@ function base_wysiwyg_editor_filter_default_formats() {
           'filter_url_length' => '72',
         ),
       ),
+      'filter_htmlcorrector' => array(
+        'weight' => '10',
+        'status' => '1',
+        'settings' => array(),
+      ),
       'pathologic' => array(
         'weight' => '50',
         'status' => '1',
