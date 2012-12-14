@@ -26,6 +26,7 @@ function base_wysiwyg_editor_wysiwyg_default_profiles() {
           'Italic' => 1,
           'BulletedList' => 1,
           'NumberedList' => 1,
+          'Link' => 1,
           'Unlink' => 1,
           'PasteText' => 1,
           'SpellChecker' => 1,
@@ -53,7 +54,6 @@ function base_wysiwyg_editor_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
-    'metatags' => array(),
     'rdf_mapping' => array(),
   );
 
@@ -73,6 +73,7 @@ function base_wysiwyg_editor_wysiwyg_default_profiles() {
           'Italic' => 1,
           'BulletedList' => 1,
           'NumberedList' => 1,
+          'Link' => 1,
           'Unlink' => 1,
           'PasteText' => 1,
           'SpellChecker' => 1,
@@ -100,7 +101,6 @@ function base_wysiwyg_editor_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
-    'metatags' => array(),
     'rdf_mapping' => array(),
   );
 
