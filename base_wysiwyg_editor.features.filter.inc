@@ -39,6 +39,27 @@ function base_wysiwyg_editor_filter_default_formats() {
           'filter_url_length' => '72',
         ),
       ),
+      'htmlpurifier_basic' => array(
+        'weight' => '0',
+        'status' => '1',
+        'settings' => array(
+          'htmlpurifier_help' => 1,
+          'htmlpurifier_basic_config' => array(
+            'Attr.EnableID' => '0',
+            'AutoFormat.AutoParagraph' => '1',
+            'AutoFormat.Linkify' => '1',
+            'AutoFormat.RemoveEmpty' => '0',
+            'Null_HTML.Allowed' => '1',
+            'HTML.ForbiddenAttributes' => '',
+            'HTML.ForbiddenElements' => '',
+            'HTML.SafeObject' => '0',
+            'Output.FlashCompat' => '0',
+            'URI.DisableExternalResources' => '0',
+            'URI.DisableResources' => '0',
+            'Null_URI.Munge' => '1',
+          ),
+        ),
+      ),
       'filter_htmlcorrector' => array(
         'weight' => '10',
         'status' => '1',
